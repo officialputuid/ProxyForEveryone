@@ -68,3 +68,4 @@ https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/ol
 ### ⚠️ Security Notice
 
 Using free proxies may expose you to privacy risks or malicious actors. Always use proxies responsibly, verify your sources, and comply with local laws. Use at **your own risk**.
+
