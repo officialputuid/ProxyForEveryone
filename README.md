@@ -1,86 +1,78 @@
-# 🦊 **KangProxy** — Free Proxies, Fresh Daily
-KangProxy delivers **daily-updated**, **verified**, and **ready-to-use** proxy lists — supporting **HTTP**, **HTTPS**, **SOCKS4**, and **SOCKS5**.
-Perfect for developers, scrapers, and automation enthusiasts who need clean IP rotation — and it’s **💯 FREE**.
+
+<div align="center">
+
+# 🌍 ProxyForEveryone
+
+Free proxy lists (HTTP / HTTPS / SOCKS4 / SOCKS5)  
+Updated regularly & ready to use.
+
+</div>
 
 ---
 
-## 🚀 Why Choose KangProxy?
+<div align="center">
 
-- ✅ **Auto-Updated Daily** — Fresh proxies every 24 hours. 
-- ✅ **Built-in Proxy Validator** — Automatically checks speed, uptime & availability.
-- ✅ **Multi-Protocol Support** — HTTP, HTTPS, SOCKS4, SOCKS5 — all in one place.
-- ✅ **Open & Free Forever** — Because sharing is caring.
+## 🔗 Raw Links
+
+| PROTOCOL | LINK |
+|----------|------|
+| HTTP | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/http/http.txt` |
+| HTTPS | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/https/https.txt` |
+| SOCKS4 | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/socks4/socks4.txt` |
+| SOCKS5 | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/socks5/socks5.txt` |
+| ALL | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/Proxies.txt` |
+| TESTED | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt` |
+
+</div>
 
 ---
 
-## 📥 How to Download Proxies
+<div align="center">
 
-Easily fetch any proxy list using `curl` or your favorite download tool:
+## ⬇️ Download
+
+</div>
 
 ```bash
-curl -L <link> -o <filename>.txt
+curl -L "<RAW_LINK>" -o proxies.txt
+````
+
+```powershell
+Invoke-WebRequest -Uri "<RAW_LINK>" -OutFile "proxies.txt"
 ```
 
 ---
 
-## 🌐 Latest Proxy Endpoints
+<div align="center">
 
-| Type                       | Raw URL                                                                                                  |
-| -------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **HTTP**                   | [http.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt)           |
-| **HTTPS**                  | [https.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt)        |
-| **SOCKS4**                 | [socks4.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt)     |
-| **SOCKS5**                 | [socks5.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt)     |
-| **ALL (Proxies Combined)** | [Proxies.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/Proxies.txt) |
-| **ALL (RAW + Protocol + Tested)**       | [RAW.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt)         |
+## 🗃️ Old Data
 
----
+| INFO                 | LINK                                                                                    |
+| -------------------- | --------------------------------------------------------------------------------------- |
+| Previous Proxy List  | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/old/all.txt`    |
+| Previous Tested List | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/old/tested.txt` |
 
-## 🗃️ Archive (Old Data)
-
-| Description           | Link                                                                                                              |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Previous Proxies List | [Proxies.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/Proxies.txt) |
-| Previous RAW List     | [RAW.txt](https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/RAW.txt)         |
+</div>
 
 ---
 
-## ⚔️ Security & Usage Disclaimer
+<div align="center">
 
-Free proxies are **publicly accessible** and can be **unstable or insecure**.
-Use them **responsibly**, **avoid sensitive data**, and **respect local laws**.
-KangProxy is for **educational & testing purposes only** — use at your **own risk**.
+## 📦 Format
 
----
+</div>
 
-## 💡 Pro Tip
-
-You can automate proxy downloads with:
-
-🌀 No Protocol (All Proxies — Not Tested)
-```bash
-0 */6 * * * curl -L https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/Proxies.txt -o ~/proxies.txt
+```
+PROTOCOL:IP:PORT or IP:PORT
 ```
 
-⚙️ With Protocol (Tested & Verified)
-```bash
-0 */6 * * * curl -L https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt -o ~/proxies.txt
-```
-
-*(This example updates automatically every 6 hours.)*
-
 ---
 
-## 🌟 Star History
+<div align="center">
 
-<a href="https://www.star-history.com/#officialputuid/KangProxy&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=officialputuid/KangProxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=officialputuid/KangProxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=officialputuid/KangProxy&type=timeline&legend=top-left" />
- </picture>
-</a>
+## ⚠️ Disclaimer
 
----
+Free proxies are public and may be unstable or insecure.
+Do not use them for sensitive data.
 
-### 🧑‍💻 Maintained by [@officialputuid](https://github.com/officialputuid)
+</div>
