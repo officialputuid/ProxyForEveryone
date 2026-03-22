@@ -16,12 +16,12 @@ Updated regularly & ready to use.
 
 | PROTOCOL | LINK |
 |----------|------|
-| HTTP | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/http/http.txt` |
-| HTTPS | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/https/https.txt` |
-| SOCKS4 | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/socks4/socks4.txt` |
-| SOCKS5 | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/socks5/socks5.txt` |
-| ALL | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/Proxies.txt` |
-| TESTED | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt` |
+| HTTP | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/http/http.txt` |
+| HTTPS | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/https/https.txt` |
+| SOCKS4 | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/socks4/socks4.txt` |
+| SOCKS5 | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/socks5/socks5.txt` |
+| ALL | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/xResults/Proxies.txt` |
+| TESTED | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/xResults/RAW.txt` |
 
 </div>
 
@@ -49,8 +49,8 @@ Invoke-WebRequest -Uri "<RAW_LINK>" -OutFile "proxies.txt"
 
 | INFO                 | LINK                                                                                    |
 | -------------------- | --------------------------------------------------------------------------------------- |
-| Previous Proxy List  | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/old/all.txt`    |
-| Previous Tested List | `https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/old/tested.txt` |
+| Previous  | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/old/all.txt`    |
+| Previous Tested | `https://cdn.jsdelivr.net/gh/officialputuid/ProxyForEveryone@main/old/tested.txt` |
 
 </div>
 
